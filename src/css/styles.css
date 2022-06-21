@@ -1,0 +1,58 @@
+:root {
+    --main-color: #0ad2dc;
+}
+
+body {
+    margin: auto 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 80px 100px;
+}
+
+
+.nav_container {
+    margin-right: 100px;
+    display: flex;
+    align-self: center;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0 20px 0 20px;
+    letter-spacing: 0.5px;
+}
+
+.nav_link:hover {
+    color: var(--main-color)
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 400px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .header_container {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .nav_container {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .nav_link {
+        font-size: 12px;
+    }
+}
