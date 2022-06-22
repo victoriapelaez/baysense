@@ -485,8 +485,13 @@ button:hover {
         margin: 50px
     }
 
+    .header_container>a {
+        margin: auto;
+        margin-top: 40px;
+    }
+
     .logo {
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
 
