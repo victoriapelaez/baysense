@@ -496,8 +496,18 @@ button:hover {
     }
 
     .nav_link {
-        font-size: 13px;
-        padding: 0 20px 0 20px;
+        font-size: 12px;
+        padding: 0 10px 0 10px;
+    }
+
+    .contents>h2 {
+        font-size: 15px;
+        padding: 0 60px 0 50px;
+    }
+
+    .contents>p {
+
+        padding: 0 60px 0 50px;
     }
 
     .facilities {
@@ -506,8 +516,9 @@ button:hover {
     }
 
     .facilities_container>p {
-        font-size: 17px;
-        text-align: justify;
+        font-size: 15px;
+        padding: 0 60px 0 50px;
+
     }
 
     .footer_container {
@@ -522,6 +533,40 @@ button:hover {
         padding-right: 10px;
         width: 10px;
         height: 10px;
+    }
+
+}
+
+@media (min-width: 1650px) {
+    .contents>h1 {
+        font-size: 20px;
+        padding: 80px 0 10px 80px;
+    }
+
+    .contents>h2 {
+        font-size: 30px;
+        padding-left: 80px;
+    }
+
+    .contents>p {
+        font-size: 1.1rem;
+
+        padding: 0 80px 0 80px;
+    }
+
+    p:nth-child(5) {
+        margin-top: 40px;
+    }
+
+    p:nth-child(7) {
+        margin-bottom: 50px;
+    }
+
+    button {
+        padding: 15px 20px 15px 20px;
+        font-size: 15px;
+        width: 150px;
+        margin-left: 80px;
     }
 
 }
